@@ -1,7 +1,8 @@
-;****************** mysoln.s ***************
+;****************** ultrasonic_sensor_arm.s ***************
 ; CPE287, Fall 2019, Lab 6
 ; NAME: Gabe Rivera
 ; DATE: 10/08/19
+; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init, Ultrasonic_Echo and Distance_Report.
 ;*****************************************
 
 
