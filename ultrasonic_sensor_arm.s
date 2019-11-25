@@ -2,7 +2,7 @@
 ; CPE287, Fall 2019, Lab 6
 ; NAME: Gabe Rivera
 ; DATE: 10/08/19
-; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init, Ultrasonic_Echo and Distance_Report.
+; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init and Ultrasonic_Echo.
 ;*****************************************
 
 
@@ -157,23 +157,5 @@ wait_for_release
 	POP {R1-R12, LR}
     BX LR
 	
-;------------Distance_Report------------
-; Place your solution below
-Distance_Report
-	PUSH {R1-R12, LR}
-    MOV R3, R0
-loop
-	BL  red_led_on    
-	;BL  delay_msec
-	BL  red_led_off
-	SUB R3, #1
-	CMP R3, #0
-	BEQ done
-	BGT loop
-done
-	POP {R1-R12, LR}
-	BX LR
-
-
     ALIGN                           ; make sure the end of this section is aligned
     END                             ; end of file
