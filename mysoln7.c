@@ -1,7 +1,9 @@
-// CPE287 Lab7 solution
-// NAME: Gabe Rivera                  *** -5 points if you forget ***
-// DATE: 11/2/2019      
-
+//;****************** ultrasonic_sensor_arm.s ***************
+//; CPE287, Fall 2019, Lab 6
+//; NAME: Gabe Rivera
+//; DATE: 10/08/19
+//; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init and Ultrasonic_Echo.
+//;*****************************************
 #include <stdint.h>
 #include "tm4c123gh6pm.h"
 
