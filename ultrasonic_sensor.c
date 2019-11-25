@@ -1,8 +1,8 @@
-//;****************** ultrasonic_sensor_C.s ***************
+//;****************** ultrasonic_sensor.c ***************
 //; CPE287, Fall 2019, Lab 6
 //; NAME: Gabe Rivera
 //; DATE: 10/08/19
-//; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init and Ultrasonic_Echo, converted from ARM to embedded C
+//; DESCRIPTION: This file holds my solutions to the fucntions PortB_Init and Ultrasonic_Echo, converted from ARM assembly to embedded C
 //;*****************************************
 #include <stdint.h>
 #include "tm4c123gh6pm.h"
