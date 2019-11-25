@@ -1,5 +1,5 @@
 // CPE287 Lab7 main
-// James Lumpp
+// Dr. Jim Lumpp and Gabe Rivera
 // 10/21/2019
 
 #include "PLL.h"
